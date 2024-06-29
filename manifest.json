@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Auto-pass Bridgebase",
+    "version": "1.0",
+    "description": "An extension that automatically clicks the pass button on the Bridgebase website.",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+  }
+  
