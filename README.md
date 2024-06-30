@@ -1,4 +1,4 @@
-# Расширение AVTO-PASS KLIKER для Chrome
+# Расширение AVTO-PASS KLIKER для [Bridge Base Online](https://www.bridgebase.com)
 
 Это расширение для Chrome автоматизирует процесс нажатия кнопки "Pass" на сайте Bridge Base Online (BBO), платформе для игры в бридж онлайн.
 
