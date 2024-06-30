@@ -1,19 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Button Clicker</title>
+  <title>AVTO-PASS KLIKER</title>
   <style>
     body {
-      width: 200px;
-      padding: 10px;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: white;
+      padding: 20px;
+      width: 300px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
     }
     button {
-      width: 100%;
+      background-color: #f44336;
+      color: white;
+      border: none;
+      padding: 15px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 12px;
+    }
+    button:hover {
+      background-color: #d32f2f;
+    }
+    p {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 20px;
     }
   </style>
 </head>
 <body>
-  <button id="clickButton">Click Pass Button</button>
+  <img src="image.png" alt="Auto-Pass Icon">
+  <h1>AVTO-PASS KLIKER</h1>
+  <button id="toggle">NACHATY AUTO-PASS</button>
+  <p id="status">STATUS: STOPAEM</p>
   <script src="popup.js"></script>
 </body>
 </html>
